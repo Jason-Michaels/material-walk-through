@@ -1,3 +1,6 @@
-<p>
-  message-new works!
-</p>
+<mat-horizontal-stepper [liner]="true" #stepper>
+  <mat-step [stepControl]="firstFormGroup"></mat-step>
+  <mat-step [stepControl]="secondFormGroup"></mat-step>
+  <mat-step [optional]="true"></mat-step>
+  <mat-step></mat-step>
+</mat-horizontal-stepper>
