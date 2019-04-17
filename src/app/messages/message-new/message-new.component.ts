@@ -30,7 +30,8 @@ export class MessageNewComponent implements OnInit {
 
   ngOnInit() {
     this.firstFormGroup = this.formBuilder.group({
-      emailCtrl: ['', Validators.required]
+      emailCtrl: ['', Validators.required],
+      priorityCtrl: ['', Validators.required]
     });
     this.secondFormGroup = this.formBuilder.group({
       messageCtrl: ['', Validators.required]
