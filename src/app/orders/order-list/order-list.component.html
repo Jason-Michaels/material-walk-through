@@ -1,11 +1,15 @@
 <mat-tab-group>
   <mat-tab label="Orders">
-    <p>Orders here.</p>
+    <p>Eager fetch</p>
   </mat-tab>
   <mat-tab label="Shipments">
-    <p>Shipments here.</p>
+    <ng-template matTabContent>
+      <p>Shipments here.</p>
+    </ng-template>
   </mat-tab>
   <mat-tab label="Archived">
-    <p>Really old orders</p>
+    <ng-template matTabContent>
+      <p>Really old orders</p>
+    </ng-template>
   </mat-tab>
 </mat-tab-group>
