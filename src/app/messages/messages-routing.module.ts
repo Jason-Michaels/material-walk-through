@@ -9,7 +9,7 @@ const routes: Routes = [
     component: MessageListComponent
   },
   {
-    path: 'New',
+    path: 'new',
     component: MessageNewComponent
   }
 ];
